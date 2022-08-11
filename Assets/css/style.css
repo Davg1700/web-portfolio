@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outlon */
+    /* border: 1px solid rgb(201, 66, 201); */
+}
+
+/* bg */
+body {
+    background-color: rgb(113, 113, 157);
+}
+
+/* name */
+h1{
+    text-align: center;
+}
+
+/* title */
+.top-section {
+    background-color: rgb(174, 29, 174);
+    height: 15vh;
+}
+
+/* places li to the right */
+.top-section li {
+    display: block;
+    float: right;
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+/* removes bullet points */
+li {
+    list-style: none;
+}
+
+/* about me text */
+.intro {
+    text-align: center;
+}
+
+/* contact info */
+.contact {
+    text-align: center;
+}
+
+/* aboutme */
+.aboutD { 
+    flex: 0 0 calc(25% - 20px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* main pros */
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
