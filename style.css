@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 2;
     box-sizing: border-box;
     /* outlon */
     /* border: 1px solid rgb(201, 66, 201); */
@@ -9,6 +9,7 @@
 /* bg */
 body {
     background-color: rgb(113, 113, 157);
+    border-style: dashed;
 }
 
 /* name */
@@ -52,6 +53,7 @@ li {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    border-style: double;
 }
 
 /* main pros */
@@ -59,4 +61,9 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-style: double;
+}
+
+#intro {
+    border-style: dotted;
 }
